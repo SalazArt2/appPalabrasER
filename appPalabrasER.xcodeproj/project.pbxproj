@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75AD386A2CC5C56B007803A2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AD38692CC5C56B007803A2 /* GameViewController.m */; };
 		75C648BC2CC5C3DF00997689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C648BB2CC5C3DF00997689 /* AppDelegate.m */; };
 		75C648BF2CC5C3DF00997689 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C648BE2CC5C3DF00997689 /* SceneDelegate.m */; };
 		75C648C22CC5C3DF00997689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C648C12CC5C3DF00997689 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75AD38682CC5C56B007803A2 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		75AD38692CC5C56B007803A2 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		75C648B72CC5C3DF00997689 /* appPalabrasER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appPalabrasER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C648BA2CC5C3DF00997689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75C648BB2CC5C3DF00997689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				75C648C02CC5C3DF00997689 /* ViewController.h */,
 				75C648C12CC5C3DF00997689 /* ViewController.m */,
 				75C648C32CC5C3DF00997689 /* Main.storyboard */,
+				75AD38682CC5C56B007803A2 /* GameViewController.h */,
+				75AD38692CC5C56B007803A2 /* GameViewController.m */,
 				75C648C62CC5C3E400997689 /* Assets.xcassets */,
 				75C648C82CC5C3E400997689 /* LaunchScreen.storyboard */,
 				75C648CB2CC5C3E400997689 /* Info.plist */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75AD386A2CC5C56B007803A2 /* GameViewController.m in Sources */,
 				75C648C22CC5C3DF00997689 /* ViewController.m in Sources */,
 				75C648BC2CC5C3DF00997689 /* AppDelegate.m in Sources */,
 				75C648CD2CC5C3E400997689 /* main.m in Sources */,
@@ -295,11 +301,13 @@
 				DEVELOPMENT_TEAM = TDU5N23NC8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = appPalabrasER/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mi Worde ER";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,11 +330,13 @@
 				DEVELOPMENT_TEAM = TDU5N23NC8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = appPalabrasER/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mi Worde ER";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
